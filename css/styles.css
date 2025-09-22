@@ -355,3 +355,27 @@ a {
   color: var(--text-light);
   background-color: var(--photo-color1);
 }
+
+.card-action-title::-webkit-scrollbar {
+  width: 8px;
+}
+
+.card-action-title::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.card-action-title::-webkit-scrollbar-thumb {
+  background-color: var(--photo-color1);
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.card-action-title::-webkit-scrollbar-thumb:hover {
+  background-color: var(--photo-color2);
+}
+
+.card-action-title {
+  scrollbar-width: thin;
+  scrollbar-color: var(--photo-color1) rgba(255, 255, 255, 0.1);
+}
