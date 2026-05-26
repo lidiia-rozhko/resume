@@ -387,10 +387,6 @@ a {
   margin-right: 0;
 }
 
-/* .flex-element:nth-last-child(-n + 2) {
-  margin-bottom: 0;
-} */
-
 .card:hover .card-action {
   opacity: 1;
 }
